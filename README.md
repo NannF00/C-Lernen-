@@ -7,13 +7,13 @@ https://www.bilibili.com/video/BV1BA411c7Sd/?zw&vd_source=83f1680829aa89c362b2e0
 IBM 的基础介绍
 https://www.ibm.com/cn-zh/cloud/learn/rest-apis
 
-[什么是 REST API？]
+# [什么是 REST API？]
 
 API（应用程序编程接口）是一组规则，用于定义应用程序或设备如何相互连接和通信。 REST API 是符合 REST（表述性状态转移）架构样式设计原则的 API。 因此，REST API 有时被称为 RESTful API。
 
 REST 于 2000 年由计算机科学家 Roy Fielding 博士 在他的博士论文中首次定义，为开发人员提供了相对较高的灵活性和自由度。 REST API 之所以成为连接微服务架构中组件和应用程序的常用方法，灵活性只是其中一个原因。
 
-[REST 设计原则]
+# [REST 设计原则]
 
 从最基本的层面上讲，API 是一种机制，使一个应用程序或服务能够访问另一个应用程序或服务中的资源。 执行访问的应用程序或服务称为客户机，而包含该资源的应用程序或服务称为服务器。
 
@@ -31,7 +31,7 @@ REST 于 2000 年由计算机科学家 Roy Fielding 博士 在他的博士论文
 
 6.按需编码（可选）。 REST API 通常发送静态资源，但在某些情况下，响应也可以包含可执行代码（例如 Java 小程序）。 在这些情况下，代码只应按需运行。
 
-[REST API 的工作原理]
+# [REST API 的工作原理]
 
 REST API 通过 HTTP 请求进行通信，以便执行标准数据库功能，例如在资源中创建、读取、更新和删除记录（这些操作也称为 CRUD）。 例如，REST API 可使用 GET 请求检索记录、使用 POST 请求创建记录、使用 PUT 请求更新记录以及使用 DELETE 请求删除记录。 可以在 API 调用中使用所有 HTTP 方法。 精心设计的 REST API 类似于在具有内置 HTTP 功能的 Web 浏览器中运行的 Web 站点。
 
@@ -39,7 +39,7 @@ REST API 通过 HTTP 请求进行通信，以便执行标准数据库功能，�
 
 在 REST API 调用中，请求头和参数也很重要，因为它们包含重要的标识信息，例如元数据、授权、统一资源标识符 (URI)、缓存、cookie 等。 在精心设计的 REST API 中会使用请求头、响应头和常规 HTTP 状态码。
 
-[REST API 最佳实践]
+# [REST API 最佳实践]
 
 尽管灵活性是 REST API 设计的一大优势，但也导致容易设计出受损或性能不佳的 API。 因此，专业开发人员分享了 REST API 规范中的最佳实践。
 
@@ -47,6 +47,6 @@ OpenAPI 规范 (OAS) 建立了一个用于描述 API 的接口，允许任何开
 
 保护 REST API 也是从行业最佳实践开始，例如，使用散列算法来确保密码安全以及使用 HTTPS 进行安全数据传输。 像 OAuth 2.0（链接位于 IBM 外部）这样的授权框架可以帮助限制第三方应用程序的权限。 使用 HTTP 头中的时间戳记，API 还可以拒绝在特定时间段后到达的任何请求。 也可以通过参数验证和 JSON Web 令牌等方式来确保只有经过授权的客户端才能访问 API。
 
-[学习的代码]
+# [学习的代码]
 
 https://github.com/evgomes/supermarket-api
