@@ -47,3 +47,6 @@ OpenAPI 规范 (OAS) 建立了一个用于描述 API 的接口，允许任何开
 
 保护 REST API 也是从行业最佳实践开始，例如，使用散列算法来确保密码安全以及使用 HTTPS 进行安全数据传输。 像 OAuth 2.0（链接位于 IBM 外部）这样的授权框架可以帮助限制第三方应用程序的权限。 使用 HTTP 头中的时间戳记，API 还可以拒绝在特定时间段后到达的任何请求。 也可以通过参数验证和 JSON Web 令牌等方式来确保只有经过授权的客户端才能访问 API。
 
+[学习的代码]
+
+https://github.com/evgomes/supermarket-api
