@@ -69,12 +69,12 @@ https://learn.microsoft.com/zh-cn/ef/core/modeling/?spm=a2c6h.12873639.article-d
 
 使用实体类的实例在数据库中创建、删除和修改数据。 有关详细信息，请参阅保存数据。
 
-using (var db = new BloggingContext())
-{
-    var blog = new Blog { Url = "http://sample.com" };
-    db.Blogs.Add(blog);
-    db.SaveChanges();
-}
+    using (var db = new BloggingContext())
+    {
+        var blog = new Blog { Url = "http://sample.com" };
+        db.Blogs.Add(blog);
+        db.SaveChanges();
+    }
 
 # 后续步骤
 
