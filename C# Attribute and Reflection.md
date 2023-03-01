@@ -2,6 +2,14 @@ attribute :https://www.runoob.com/csharp/csharp-attribute.html
 
 reflection:https://www.runoob.com/csharp/csharp-reflection.html
 
+# 个人理解:
+
+attribute是一个类和方法或者各种元素前面都可以加的东西,可以理解为打标签.但是这个标签必须也用一个类定义,类里面储存标签的各种信息.(比如声明一个debug历史信息类,储存程序员名字,更改时间,文件存放地址).
+
+打标签的时候必须给出明确信息([程序员:小花,更改时间:03.03.2023,文件存放地址:C:\xixixi\resouce\api])
+
+通过reflection可以调用这个信息.()比如这个函数是哪个程序员写的,什么时候写的,存在哪里了.)
+
 # C# 特性（Attribute）
 
 特性（Attribute）是用于在运行时传递程序中各种元素（比如类、方法、结构、枚举、组件等）的行为信息的声明性标签。您可以通过使用特性向程序添加声明性信息。一个声明性标签是通过放置在它所应用的元素前面的方括号（[ ]）来描述的。
