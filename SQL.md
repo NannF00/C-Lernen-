@@ -4,7 +4,7 @@
 
 在"Package Manager Console"里输入
 
-    add-migration  (无空格) 
+    add-migration changedCarts (changedCarts是自己定义的描述) (无空格) 
     
 # 更新数据库 
 
