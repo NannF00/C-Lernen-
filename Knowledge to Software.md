@@ -31,5 +31,3 @@ API中固定的文件. PDF,Word...
 module: demo
 
 model: 软件模型 testapp
-
-# postman 
