@@ -21,3 +21,20 @@
 ![image](https://user-images.githubusercontent.com/117897416/224340948-f22ee548-22b2-41da-9e0d-7c34d72c7e24.png)
 ![image](https://user-images.githubusercontent.com/117897416/224340996-e93f1164-e752-43a1-bb8e-37472a446d60.png)
 ![image](https://user-images.githubusercontent.com/117897416/224341029-69b3d6cc-754d-4e0c-a4c5-3676323fc216.png)
+
+# 用 postman 测试: 用path获取资源
+
+忘记了
+
+# public sever & local sever
+
+public sever : häring , amazon , alibaba ... 任何设备联网都可以访问
+
+local sever : 作为sever的我的电脑,只有和我处于一个网络下的设备可以通过我的http://domain+path访问.
+
+sever 的 IP 地址在APPsetting文件里记录(c# api 项目)
+
+# pgAdmin 找到正确的 数据库
+
+database 的 名字 ,username, password 都在APPsetting里,同一行
+
