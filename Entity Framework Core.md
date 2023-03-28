@@ -2,6 +2,8 @@
 
 https://developer.aliyun.com/article/686274
 
+https://zhuanlan.zhihu.com/p/161107452
+
 ## 介绍
 
 Entity Framework (EF) Core 是轻量化、可扩展和跨平台版的常用 Entity Framework 数据访问技术。
